@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  /* minimum size */
+  min-width: 400px;
 }
 
 input {
@@ -21,4 +23,19 @@ button {
  padding: 10px 20px;
  border: none;
  font-weight: bold;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+/* only target anchor tags that are in list */
+li a {
+  color: #5f9341;
 }
